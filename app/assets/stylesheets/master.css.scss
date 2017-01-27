@@ -1,8 +1,30 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.btn {
+.btnsucess {
   border-radius:0;
+}
+
+.btn-success{
+  background-color: lightcoral;
+  border-color: lightcoral;
+}
+
+.btn-success:hover{
+  background-color: gainsboro;
+  border-color: lightcoral;
+}
+
+
+.btn-success:active{
+  background-color: lightcoral;
+  border-color: lightcoral;
+}
+
+
+.btn-success:focus{
+  background-color: lightcoral;
+  border-color: lightcoral;
 }
 
 
@@ -68,6 +90,18 @@
   padding-bottom: 100px;
 }
 
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-weight: 100;
+  color: lightcoral;
+}
+.logocarousel {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  font-weight: 100;
+  color: lightcoral;
+}
 
 
 .navbar {
@@ -86,7 +120,11 @@
   font-family: 'Pacifico', cursive;
   font-size: 25px;
   font-weight: 100;
+  color: lightcoral;
+
 }
+
+
 
 .paddingbotom{
   padding-bottom: 100px;
