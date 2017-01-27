@@ -10,6 +10,7 @@
 
 </head>
 <body>
+<div id="wrap">
 
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
@@ -38,6 +39,58 @@
 </nav>
 
 <%= yield %>
+
+</div>
+
+<!-- footer start-->
+<br class="clr" />
+
+
+<div id=" footer">
+  <div class="paddingtop container">
+    <div class="col-xs-12 col-sm-3">
+      <b>Admin</b>
+      <br />
+      <%= link_to 'Login', '#' %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>Contact</b>
+      <br />
+      Anthony Hernandez
+      <br />
+      a_hernandez@ahhauling.com
+      <br />
+      Phone Number Here
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>About AH Hauling...</b>
+      <br />
+      <%= link_to 'Careers', '#' %>
+      <br />
+      <%= link_to 'Privacy Policy', '#' %>
+      <br />
+      <%= link_to 'Want a Website Like This?', "#" %>
+      <br />
+    </div>
+    <div class="col-xs-12 col-sm-3 social">
+      <b>Follow Us For Updates!</b>
+      <br />
+      <br />
+      <%= link_to '#' do %>
+          <%= image_tag 'facebook.png', class: 'social-button' %>
+      <% end %>
+      <%= link_to '#' do %>
+          <%= image_tag 'twitter.png', class: 'social-button' %>
+      <% end %>
+    </div>
+
+  </div>
+</div>
+
+<!-- footer end-->
+
+
+
 
 </body>
 </html>
