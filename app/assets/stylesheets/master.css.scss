@@ -6,25 +6,25 @@
 }
 
 .btn-success{
-  background-color: lightcoral;
-  border-color: lightcoral;
+  background-color: #006600;
+  border-color: #006600;
 }
 
 .btn-success:hover{
   background-color: gainsboro;
-  border-color: lightcoral;
+  border-color: #006600;
 }
 
 
 .btn-success:active{
-  background-color: lightcoral;
-  border-color: lightcoral;
+  background-color: #006600;
+  border-color: #006600;
 }
 
 
 .btn-success:focus{
-  background-color: lightcoral;
-  border-color: lightcoral;
+  background-color: #006600;
+  border-color: #006600;
 }
 
 
@@ -35,18 +35,18 @@
 .carousel-caption {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 60px;
-  font-weight:100;
-  text-shadow: rgba(0,0,0,0.95) 2px 2px;
-  background-color: rgba(0,0,0,0.5);
-  width:100%;
-  left:0;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  left: 0;
   bottom: 400px;
-
 }
 
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  max-width: 100%;
+  width: auto;
+  height: 700px;
 }
 
 
@@ -78,6 +78,21 @@
 
 }
 
+.glyphicon {
+  color: #006600;
+}
+
+.glyphicon-road{
+  font-size: 70px;
+}
+
+.glyphicon-ok{
+  font-size: 70px;
+}
+
+.glyphicon-copyright-mark{
+  font-size: 70px;
+}
 
 
 .hero {
@@ -90,19 +105,21 @@
   padding-bottom: 100px;
 }
 
+
+
 .logo {
   //font-family: 'Pacifico', cursive;
   font-family: 'Cinzel', serif;
 
   font-size: 30px;
   font-weight: 100;
-  color: lightcoral;
+  color: #006600;
 }
 .logocarousel {
   font-family: 'Cinzel', serif;
   font-size: 50px;
   font-weight: 100;
-  color: lightcoral;
+  color: #006600;
 }
 
 
@@ -122,7 +139,7 @@
   font-family: 'Cinzel', serif;
   font-size: 25px;
   font-weight: 100;
-  color: lightcoral;
+  color: #006600;
 
 }
 

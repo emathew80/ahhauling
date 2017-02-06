@@ -29,12 +29,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About AH Hauling</a></li>
-        <li><a href="#">Book with us!</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Admin Login</a></li>
-      </ul>
+        <li ><%= link_to 'Book With Us', root_path(anchor: "book") %></li>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -50,18 +45,13 @@
 <div id=" footer">
   <div class="paddingtop container">
     <div class="col-xs-12 col-sm-3">
-      <b>Admin</b>
-      <br />
-      <%= link_to 'Login', '#' %>
-    </div>
-    <div class="col-xs-12 col-sm-3">
       <b>Contact</b>
       <br />
       Anthony Hernandez
       <br />
-      a_hernandez@ahhauling.com
+      ahhauling1@gmail.com
       <br />
-      Phone Number Here
+      (770) 490 5205
     </div>
     <div class="col-xs-12 col-sm-3">
       <b>About AH Hauling...</b>
@@ -69,17 +59,19 @@
       <%= link_to 'Careers', '#' %>
       <br />
       <%= link_to 'Privacy Policy', '#' %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>Want a site like this?</b>
       <br />
-      <%= link_to 'Want a Website Like This?', "#" %>
-      <br />
+      <%= link_to 'Click Here', 'http://elsonmathew.herokuapp.com/' %>
     </div>
     <div class="col-xs-12 col-sm-3 social">
       <b>Follow Us For Updates!</b>
       <br />
-      <%= link_to '#' do %>
+      <%= link_to 'https://www.facebook.com/AH-Hauling-1233452106741434/' do %>
           <%= image_tag 'facebook.png', class: 'social-button' %>
       <% end %>
-      <%= link_to '#' do %>
+      <%= link_to 'https://twitter.com/AhHauling' do %>
           <%= image_tag 'twitter.png', class: 'social-button' %>
       <% end %>
     </div>
